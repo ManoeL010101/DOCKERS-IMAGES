@@ -11,7 +11,7 @@ services:
     ports:
       - "80:80"
     # ----------------------------------------------------
-    # CORREÇÃO AQUI: 'environment:' deve estar neste nível
+    # 
     # ----------------------------------------------------
     environment:
       GLPI_DB_HOST: db
